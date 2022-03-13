@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3001
 const express = require("express");
 const inquirer = require("inquirer");
 const notes = require("./Develop/db/db.json");
@@ -14,7 +15,7 @@ app.use(express.json());
 
 
 
-const port = process.env.PORT || 3001
+
 
 
 const app = express()
