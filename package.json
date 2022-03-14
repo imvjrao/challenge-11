@@ -13,7 +13,14 @@
     "express": "^4.17.3",
     "inquirer": "^8.2.1",
     "uuid": "^8.3.2"
-  }
-
-  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imvjrao/challenge-11.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/imvjrao/challenge-11/issues"
+  },
+  "homepage": "https://github.com/imvjrao/challenge-11#readme"
 }
