@@ -1,7 +1,7 @@
 {
-  "name": "miniature-eureka-main",
+  "name": "note-takr-2022",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple app to add, read and delete notes.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,4 +14,6 @@
     "inquirer": "^8.2.1",
     "uuid": "^8.3.2"
   }
+
+  
 }
