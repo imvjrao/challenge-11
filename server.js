@@ -31,26 +31,15 @@ app.post("/api/notes", (req, res) => {
     const newNotes = req.body;
     newNotes.id = uuid.v1();
     notes.push(newNotes);
-    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(notes), (err, object) => {
-        if (err){
-            return console.log(err);
-        }
-        res.json(notes);
-        });
-    res.sendFile(path.join(__dirname, "./Develop/public/notes.html"))
+    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(notes));
+    res.json(notes);
 });
 
 app.delete("api/notes/:id", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./Develop/db/db.json"));
     const deleteNote = notes.filter((rmvNote) => (rmvNote.id) !== (req.params.id));
-    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(deleteNote), (err, object) => {
-        if (err){
-            return console.log(err);
-        }
-        res.json(deleteNote);
-    });
-    res.sendFile(path.join(__dirname, "./Develop/public/notes.html"))
-    
+    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(deleteNote));
+    res.json(deleteNote);
 });
 
 app.get("/", (req, res) => {
