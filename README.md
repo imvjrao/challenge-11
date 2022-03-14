@@ -1,10 +1,16 @@
 # Note Taker Starter Code
 
 ## Git Hub URL
-
+[](https://github.com/imvjrao/challenge-11.git)
 
 ## URL for the deployed website
+[](https://imvjrao.github.io/challenge-11/)
 
+
+### Deployed Website
+![](./Develop/public/assets/Images/Note-Takr-2022.png)
+
+![](./Develop/public/assets/Images/Note-takr-2022-page-1.png)
 
 ## Description
 1. WHEN I open the Note Taker.
