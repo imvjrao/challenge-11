@@ -1,10 +1,11 @@
 # Note Taker Starter Code
 
 ## Git Hub URL
-[](https://github.com/imvjrao/challenge-11.git)
+[Click Here] https://github.com/imvjrao/challenge-11.git
+
 
 ## URL for the deployed website
-[](https://imvjrao.github.io/challenge-11/)
+[Click Here] https://imvjrao.github.io/challenge-11/
 
 
 ### Deployed Website
